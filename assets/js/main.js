@@ -13,11 +13,6 @@
 !(function($) {
   "use strict";
 
-
-  $(document).ready(function(){ 
-      $("#myTab li:eq(0) a").tab('show'); // show 2nd tab on page load
-  });
-
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 1;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
